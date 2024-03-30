@@ -23,6 +23,7 @@ namespace PUGBMortar
     {
         public MainWindow() {
             InitializeComponent();
+            Text_A.Focus();
         }
 
         private void Btn_Calculate_Click(object sender, RoutedEventArgs e) {

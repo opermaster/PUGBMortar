@@ -18,7 +18,7 @@
                 <RowDefinition></RowDefinition>
             </Grid.RowDefinitions>
         <Label FontSize="20" Margin="30 10 0 0" Grid.Row="0" Grid.Column="0">A=</Label>
-        <TextBox  FontSize="20" x:Name="Text_A" Height="40" Grid.Row="0" Grid.Column="1" Grid.ColumnSpan="2" ></TextBox>
+        <TextBox FontSize="20" x:Name="Text_A" Height="40" Grid.Row="0" Grid.Column="1" Grid.ColumnSpan="2" ></TextBox>
         <Label FontSize="20" Margin="30 10 0 0" Grid.Row="1" Grid.Column="0">B=</Label>
         <TextBox FontSize="20" x:Name="Text_B" Height="40" Grid.Row="1" Grid.Column="1" Grid.ColumnSpan="2" ></TextBox>
         <Button  Margin="5" x:Name="Btn_Calculate" Height="30" Grid.Row="2" Grid.Column="0" Grid.ColumnSpan="2" Click="Btn_Calculate_Click">Calculate</Button>
